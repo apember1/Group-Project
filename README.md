@@ -47,10 +47,10 @@ def addWord(word,wordsearch):
     for i in range(0,len(word)):
         wordsearch[row][col+i]=word[i]
   #CHANGE THIS CODE TO
-  # ----Randomly decide where the word will start
-  # ----Decide if the word will be added horizontally, vertically or diagonally
-  # ----Check that the word will fit in (within the 12 by 12 grid)
-  # ----Check that the word will not overlap with existing letters/words in the wordsearch
+  #Randomly decide where the word will start
+  #Decide if the word will be added horizontally, vertically or diagonally
+  #Check that the word will fit in (within the 12 by 12 grid)
+  #Check that the word will not overlap with existing letters/words in the wordsearch
   
   #Adding words to our wordsearch
 addWord("PYTHON",wordsearch)    
